@@ -14,6 +14,11 @@ function MyApp({ Component, pageProps }) {
           padding: 0;
           margin: 0;
           font-family: 'Space Grotesk', sans-serif;
+          overflow: hidden;
+        }
+
+        input {
+          font-size: 16px;
         }
 
         * {
