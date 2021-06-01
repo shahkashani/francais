@@ -1,15 +1,54 @@
+import CaretIcon from 'icons/caret';
+import { Ref } from 'react';
 import Verb from 'types/verb';
 import styles from './styles.module.scss';
+import { useState } from 'react';
 
-export default function Question({ verb }: { verb: Verb }) {
+export default function Question({
+  verb,
+  inputRef,
+  onCorrect,
+  onIncorrect,
+}: {
+  verb: Verb;
+  inputRef?: Ref<HTMLInputElement>;
+  onCorrect: (answer?: string, verb?: Verb) => void;
+  onIncorrect: (answer?: string, verb?: Verb) => void;
+}) {
+  const [answer, setAnswer] = useState<string>('');
+  const { passecompose, infinitif, translation } = verb;
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (answer.trim().length === 0) {
+      return;
+    }
+    if (answer.toLowerCase() === passecompose.toLocaleLowerCase()) {
+      onCorrect(answer, verb);
+    } else {
+      onIncorrect(answer, verb);
+    }
+    setAnswer('');
+  };
   return (
     <div className={styles.container}>
       <h1>
-        {verb.infinitif}{' '}
-        <span className={styles.translation}>{verb.translation}</span>
+        {infinitif} <span className={styles.translation}>{translation}</span>
       </h1>
-      <input type="text" autoFocus={true} />
-      <button>Continue</button> 
+      <div>
+        <form onSubmit={onSubmit} className={styles.form}>
+          <input
+            ref={inputRef}
+            className={styles.input}
+            type="text"
+            autoFocus={true}
+            value={answer}
+            onInput={(e) => setAnswer(e.currentTarget.value)}
+          />
+          <button aria-label="Submit" className={styles.button}>
+            <CaretIcon />
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

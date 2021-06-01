@@ -1,0 +1,36 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.correct {
+  color: #29b711;
+}
+
+.incorrect {
+  color: #b72d11;
+}
+
+.h1 {
+  margin-bottom: 10px;
+}
+
+.h2 {
+  margin-top: 0;
+}
+
+.button {
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 5rem;
+}
