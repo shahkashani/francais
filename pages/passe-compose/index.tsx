@@ -1,25 +1,28 @@
+import { useEffect, useState } from 'react';
+
 import Head from 'next/head';
 import Question from './components/question';
 import Verb from 'types/verb';
 import { sample } from 'lodash';
 import styles from './styles.module.css';
-import { useState } from 'react';
 
-export async function getServerSideProps({ req }) {
-  const baseUrl = req ? `https://${req.headers.host}` : '';
-  const response = await fetch(`${baseUrl}/api/passe-compose`);
-  const verbs = await response.json();
-  const verb = sample(verbs);
-  return {
-    props: {
-      verbs,
-      verb,
-    },
-  };
-}
+export default function PasseCompose() {
+  const [verbs, setVerbs] = useState<Verb[]>([]);
+  const [currentVerb, setCurrentVerb] = useState<Verb>(null);
 
-export default function PasseCompose({ verbs, verb }: { verbs: Verb[]; verb }) {
-  const [currentVerb, setVerb] = useState<Verb>(verb);
+  useEffect(() => {
+    const getData = async () => {
+      const response = await fetch(`/api/passe-compose`);
+      const verbs = await response.json();
+      setVerbs(verbs);
+      setCurrentVerb(sample(verbs));
+    };
+    getData();
+  }, []);
+
+  if (!currentVerb) {
+    return '';
+  }
 
   return (
     <>
