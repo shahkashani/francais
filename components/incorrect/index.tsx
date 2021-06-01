@@ -17,7 +17,7 @@ export default function Incorrect({
         <span className={styles.correct}>{verb.passecompose}</span>
       </h1>
       <h2 className={styles.h2}>
-        <span className={styles.incorrect}>{answer}</span>
+        <span className={styles.incorrect}>{answer}</span> est incorrect
       </h2>
       <button
         className={styles.button}

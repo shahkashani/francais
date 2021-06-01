@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   padding: 100px;
 }
 
@@ -17,7 +18,7 @@
 }
 
 .incorrect {
-  color: #b72d11;
+  color: #cf4125;
 }
 
 .h1 {
@@ -26,6 +27,7 @@
 
 .h2 {
   margin-top: 0;
+  color: gray;
 }
 
 .button {
