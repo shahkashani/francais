@@ -47,7 +47,7 @@
     "passecompose": "voulu",
     "translation": "to wish, want to"
   },
-  { "infinitif": "apprendre", "passecompose": "apris", "translation": "to learn" },
+  { "infinitif": "apprendre", "passecompose": "appris", "translation": "to learn" },
   {
     "infinitif": "comprendre",
     "passecompose": "compris",
@@ -55,7 +55,7 @@
   },
   { "infinitif": "mettre", "passecompose": "mis", "translation": "to put" },
   {
-    "infinitif": "permetrre",
+    "infinitif": "permettre",
     "passecompose": "permis",
     "translation": "to allow, permit"
   },
