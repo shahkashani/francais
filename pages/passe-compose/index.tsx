@@ -64,13 +64,13 @@ export default function PasseCompose() {
           onIncorrect={onIncorrect}
         />
         {isCorrect === true && (
-          <Correct onComplete={() => onAnswerComplete()} />
+          <Correct onComplete={onAnswerComplete} />
         )}
         {isCorrect === false && (
           <Incorrect
             answer={lastAnswer}
             verb={previousVerb}
-            onComplete={() => onAnswerComplete()}
+            onComplete={onAnswerComplete}
           />
         )}
       </div>
