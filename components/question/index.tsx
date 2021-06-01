@@ -42,6 +42,9 @@ export default function Question({
             type="text"
             autoFocus={true}
             value={answer}
+            autoCorrect="off"
+            autoComplete="off"
+            autoCapitalize="off"
             onInput={(e) => setAnswer(e.currentTarget.value)}
           />
           <button aria-label="Submit" className={styles.button}>
