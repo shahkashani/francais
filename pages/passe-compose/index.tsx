@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 import { useState } from 'react';
 
 export async function getServerSideProps({ req }) {
-  const baseUrl = req ? `http://${req.headers.host}` : '';
+  const baseUrl = req ? `https://${req.headers.host}` : '';
   const response = await fetch(`${baseUrl}/api/passe-compose`);
   const verbs = await response.json();
   const verb = sample(verbs);
