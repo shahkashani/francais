@@ -1,0 +1,123 @@
+[
+  {
+    "infinitif": "parler",
+    "passecompose": "parlé",
+    "translation": "to speak, talk"
+  },
+  { "infinitif": "ancheter", "passecompose": "acheté", "translation": "to buy" },
+  {
+    "infinitif": "commencer",
+    "passecompose": "commencé",
+    "translation": "to start"
+  },
+  { "infinitif": "choisir", "passecompose": "choisi", "translation": "to choose" },
+  { "infinitif": "finir", "passecompose": "fini", "translation": "to finish" },
+  { "infinitif": "attendre", "passecompose": "attendu", "translation": "to wait" },
+  { "infinitif": "perdre", "passecompose": "perdu", "translation": "to lose" },
+  { "infinitif": "vendre", "passecompose": "vendu", "translation": "to sell" },
+  { "infinitif": "discuter", "passecompose": "discuté", "translation": "to chat" },
+  {
+    "infinitif": "apercevoir",
+    "passecompose": "aperçu",
+    "translation": "to glimpse"
+  },
+  { "infinitif": "avoir", "passecompose": "eu", "translation": "to have" },
+  { "infinitif": "boire", "passecompose": "bu", "translation": "to drink" },
+  { "infinitif": "connaître", "passecompose": "connu", "translation": "to know" },
+  { "infinitif": "croire", "passecompose": "cru", "translation": "to believe" },
+  { "infinitif": "devoir", "passecompose": "dû", "translation": "to have" },
+  { "infinitif": "lire", "passecompose": "lu", "translation": "to read" },
+  { "infinitif": "obtenir", "passecompose": "obtenu", "translation": "to obtain" },
+  {
+    "infinitif": "paraître",
+    "passecompose": "paru",
+    "translation": "to appear, seem"
+  },
+  { "infinitif": "plaire", "passecompose": "plu", "translation": "to please" },
+  { "infinitif": "pleuvoir", "passecompose": "plu", "translation": "to rain" },
+  { "infinitif": "pouvoir", "passecompose": "pu", "translation": "to be able to" },
+  { "infinitif": "recevoir", "passecompose": "reçu", "translation": "to receive" },
+  { "infinitif": "revoir", "passecompose": "revu", "translation": "to see again" },
+  { "infinitif": "savoir", "passecompose": "su", "translation": "to know" },
+  { "infinitif": "tenir", "passecompose": "tenu", "translation": "to hold" },
+  { "infinitif": "vivre", "passecompose": "vécu", "translation": "to live" },
+  { "infinitif": "voir", "passecompose": "vu", "translation": "to see" },
+  {
+    "infinitif": "vouloir",
+    "passecompose": "voulu",
+    "translation": "to wish, want to"
+  },
+  { "infinitif": "apprendre", "passecompose": "apris", "translation": "to learn" },
+  {
+    "infinitif": "comprendre",
+    "passecompose": "compris",
+    "translation": "to understand"
+  },
+  { "infinitif": "mettre", "passecompose": "mis", "translation": "to put" },
+  {
+    "infinitif": "permetrre",
+    "passecompose": "permis",
+    "translation": "to allow, permit"
+  },
+  { "infinitif": "prendre", "passecompose": "pris", "translation": "to take" },
+  {
+    "infinitif": "promettre",
+    "passecompose": "promis",
+    "translation": "to promise"
+  },
+  {
+    "infinitif": "remettre",
+    "passecompose": "remis",
+    "translation": "to postpone, to submit"
+  },
+  { "infinitif": "conduire", "passecompose": "conduit", "translation": "to drive" },
+  { "infinitif": "couvrir", "passecompose": "couvert", "translation": "to cover" },
+  {
+    "infinitif": "découvrir",
+    "passecompose": "découvert",
+    "translation": "to discover"
+  },
+  { "infinitif": "dire", "passecompose": "dit", "translation": "to say" },
+  { "infinitif": "écrire", "passecompose": "écrit", "translation": "to write" },
+  { "infinitif": "faire", "passecompose": "fait", "translation": "to do, to make" },
+  {
+    "infinitif": "feindre de",
+    "passecompose": "feint",
+    "translation": "to pretend to"
+  },
+  { "infinitif": "offrir", "passecompose": "offert", "translation": "to offer" },
+  { "infinitif": "ouvrir", "passecompose": "ouvert", "translation": "to open" },
+  {
+    "infinitif": "produire",
+    "passecompose": "produit",
+    "translation": "to produce"
+  },
+  { "infinitif": "réduire", "passecompose": "réduit", "translation": "to reduce" },
+  {
+    "infinitif": "souffrir",
+    "passecompose": "souffert",
+    "translation": "to suffer"
+  },
+  {
+    "infinitif": "traduire",
+    "passecompose": "traduit",
+    "translation": "to translate"
+  },
+  { "infinitif": "dormir", "passecompose": "dormi", "translation": "to sleep" },
+  { "infinitif": "mentir", "passecompose": "menti", "translation": "to lie" },
+  {
+    "infinitif": "poursuivre",
+    "passecompose": "poursuivi",
+    "translation": "to pursue, continue"
+  },
+  { "infinitif": "rire", "passecompose": "ri", "translation": "to laugh" },
+  {
+    "infinitif": "sentir",
+    "passecompose": "senti",
+    "translation": "to feel, to smell"
+  },
+  { "infinitif": "servir", "passecompose": "servi", "translation": "to serve" },
+  { "infinitif": "sourire", "passecompose": "souri", "translation": "to smile" },
+  { "infinitif": "suivre", "passecompose": "suivi", "translation": "to follow" },
+  { "infinitif": "être", "passecompose": "été", "translation": "to be" }
+]
