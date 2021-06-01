@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import Head from 'next/head';
-import Question from './components/question';
+import Question from 'components/question';
 import Verb from 'types/verb';
 import { sample } from 'lodash';
 import styles from './styles.module.css';
@@ -12,7 +12,7 @@ export default function PasseCompose() {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await fetch(`/api/passe-compose`);
+      const response = await fetch('/api/passe-compose');
       const verbs = await response.json();
       setVerbs(verbs);
       setCurrentVerb(sample(verbs));
