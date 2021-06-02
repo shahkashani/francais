@@ -58,6 +58,7 @@ export default function PasseCompose() {
   const onCorrect = () => {
     setIsCelebrating(true);
     setTotalCorrect((num) => num + 1);
+    setIncorrectCount(0);
     getNextVerb();
   };
 
