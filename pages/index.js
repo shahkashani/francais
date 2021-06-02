@@ -1,28 +1,30 @@
 export default function Home() {
   return (
     <div className="container">
-      <main>
-        <div className="grid">
-          <a href="/passe-compose" className="card">
-            <h3>Passé composé &rarr;</h3>
-            <p>The past dictates the future.</p>
-          </a>
-        </div>
-      </main>
+      <div className="grid">
+        <a href="/passe-compose" className="card">
+          <h3>Passé composé</h3>
+        </a>
+        <a href="/conjugaison" className="card">
+          <h3>Conjugaison</h3>
+          <p>Être, aller &amp; avoir</p>
+        </a>
+        <a href="/prepositions" className="card">
+          <h3>Prepositions</h3>
+        </a>
+        <a href="/preposition-locutions" className="card">
+          <h3>Preposition Locutions</h3>
+        </a>
+      </div>
 
       <style jsx>{`
         .container {
-          min-height: 100vh;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
           padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -34,47 +36,17 @@ export default function Home() {
           text-decoration: none;
         }
 
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
         .grid {
           display: flex;
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-
-          max-width: 800px;
           margin-top: 3rem;
         }
 
         .card {
           margin: 1rem;
-          flex-basis: 45%;
-          min-width: 200px;
+          flex-basis: 40%;
           padding: 1.5rem;
           text-align: left;
           color: inherit;
@@ -87,43 +59,22 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #0055a4;
+          border-color: #0055a4;
         }
 
         .card h3 {
-          margin: 0 0 1rem 0;
+          margin: 0;
           font-size: 1.5rem;
         }
 
         .card p {
-          margin: 0;
-          font-size: 1.25rem;
+          margin: 1rem 0 0 0;
+          font-size: 1rem;
           line-height: 1.5;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
+          opacity: 0.5;
         }
       `}</style>
     </div>
-  )
+  );
 }

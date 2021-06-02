@@ -1,0 +1,154 @@
+[
+  {
+    "preposition": ["à cause de", "en raison de"],
+    "translation": "because of"
+  },
+  {
+    "preposition": "à côté de",
+    "translation": "beside"
+  },
+  {
+    "preposition": "afin de",
+    "translation": "in order to"
+  },
+  {
+    "preposition": "à force de",
+    "translation": "by means of"
+  },
+  {
+    "preposition": "à la mode de",
+    "translation": "in the manner of"
+  },
+  {
+    "preposition": "à l'exception de",
+    "translation": "except"
+  },
+  {
+    "preposition": "à l'exclusion de",
+    "translation": "to the exclusion of"
+  },
+  {
+    "preposition": "à moins de",
+    "translation": "unless"
+  },
+  {
+    "preposition": "à raison de",
+    "translation": "at the rate of"
+  },
+  {
+    "preposition": "à travers",
+    "translation": "through"
+  },
+  {
+    "preposition": "au dedans",
+    "translation": "inside, within"
+  },
+  {
+    "preposition": ["au dehors de", "en dehors de", "hors de"],
+    "translation": "outside of"
+  },
+  {
+    "preposition": "au-delà de",
+    "translation": "above, beyond, past"
+  },
+  {
+    "preposition": "au-dessous de",
+    "translation": "below"
+  },
+  {
+    "preposition": "au-dessus de",
+    "translation": "above"
+  },
+  {
+    "preposition": "au lieu de",
+    "translation": "instead of"
+  },
+  {
+    "preposition": "au milieu de",
+    "translation": "in the middle of"
+  },
+  {
+    "preposition": "autour de",
+    "translation": "around"
+  },
+  {
+    "preposition": "aux environs de",
+    "translation": "in the vincinity of"
+  },
+  {
+    "preposition": "d'après",
+    "translation": "according to"
+  },
+  {
+    "preposition": ["de façon à", "de manière à"],
+    "translation": "so as to"
+  },
+  {
+    "preposition": "de peur de",
+    "translation": "for fear of"
+  },
+  {
+    "preposition": "en dedans de",
+    "translation": "inside, on the inside of, within"
+  },
+  {
+    "preposition": "en dépit de",
+    "translation": "in spite of"
+  },
+  {
+    "preposition": "en face de",
+    "translation": "in front of, facing"
+  },
+  {
+    "preposition": "en haut de",
+    "translation": "at the top of"
+  },
+  {
+    "preposition": "en bas de",
+    "translation": "at the bottom of"
+  },
+  {
+    "preposition": "grâce à",
+    "translation": "thanks to"
+  },
+  {
+    "preposition": "loin de",
+    "translation": "far from"
+  },
+  {
+    "preposition": "par dedans",
+    "translation": "inside, through the inside"
+  },
+  {
+    "preposition": "par dehors",
+    "translation": "by the outside"
+  },
+  {
+    "preposition": "par delà",
+    "translation": "beyond"
+  },
+  {
+    "preposition": "par-dessus",
+    "translation": "over, above, on top of"
+  },
+  {
+    "preposition": "par devant",
+    "translation": "before, in front"
+  },
+  {
+    "preposition": "par rapport à",
+    "translation": "with regard to, in relation to"
+  },
+  {
+    "preposition": ["près de", "auprès de", "proche de"],
+    "translation": "near"
+  },
+  {
+    "preposition": "jusqu'à",
+    "translation": "until, up to"
+  },
+  {
+    "preposition": "par-dessous",
+    "translation": "under"
+  }
+]

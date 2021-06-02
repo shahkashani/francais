@@ -14,10 +14,13 @@ export default function Incorrect({
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>
-        {question}: <span className={styles.correct}>{solution}</span>
+        {question}:{' '}
+        <span className={styles.correct}>
+          {Array.isArray(solution) ? solution.join(', ') : solution}
+        </span>
       </h1>
       <h2 className={styles.h2}>
-        <span className={styles.incorrect}>{answer}</span> est incorrect
+        🙅‍♀️ <span className={styles.incorrect}>{answer}</span>
       </h2>
       <button
         className={styles.button}

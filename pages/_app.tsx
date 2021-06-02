@@ -21,6 +21,10 @@ function MyApp({ Component, pageProps }) {
           font-size: 16px;
           font-family: 'Space Grotesk', sans-serif;
         }
+        
+        button {
+          cursor: pointer;
+        }
 
         * {
           box-sizing: border-box;

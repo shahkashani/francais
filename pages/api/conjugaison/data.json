@@ -1,0 +1,113 @@
+[
+  {
+    "verb": "être",
+    "conjugations": [
+      {
+        "subject": "je",
+        "conjugation": "suis"
+      },
+      {
+        "subject": "tu",
+        "conjugation": "es"
+      },
+      {
+        "subject": "elle",
+        "conjugation": "est"
+      },
+      {
+        "subject": "il",
+        "conjugation": "est"
+      },
+      {
+        "subject": "nous",
+        "conjugation": "sommes"
+      },
+      {
+        "subject": "vous",
+        "conjugation": "êtes"
+      },
+      {
+        "subject": "ils",
+        "conjugation": "sont"
+      },
+      {
+        "subject": "elles",
+        "conjugation": "sont"
+      }
+    ]
+  },
+  {
+    "verb": "aller",
+    "conjugations": [
+      {
+        "subject": "je",
+        "conjugation": "vais"
+      },
+      {
+        "subject": "tu",
+        "conjugation": "vas"
+      },
+      {
+        "subject": "il",
+        "conjugation": "va"
+      },
+      {
+        "subject": "elle",
+        "conjugation": "va"
+      },
+      {
+        "subject": "nous",
+        "conjugation": "allons"
+      },
+      {
+        "subject": "vous",
+        "conjugation": "allez"
+      },
+      {
+        "subject": "ils",
+        "conjugation": "vont"
+      },
+      {
+        "subject": "elles",
+        "conjugation": "vont"
+      }
+    ]
+  },
+  {
+    "verb": "avoir",
+    "conjugations": [
+      {
+        "subject": "je",
+        "conjugation": "j'ai"
+      },
+      {
+        "subject": "tu",
+        "conjugation": "as"
+      },
+      {
+        "subject": "il",
+        "conjugation": "a"
+      },
+      {
+        "subject": "elle",
+        "conjugation": "a"
+      },
+      {
+        "subject": "nous",
+        "conjugation": "avons"
+      },
+      {
+        "subject": "vous",
+        "conjugation": "avez"
+      },
+      {
+        "subject": "ils",
+        "conjugation": "ont"
+      },
+      {
+        "subject": "elles",
+        "conjugation": "ont"
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "preposition": "à",
+    "translation": "to, at, in, on"
+  },
+  {
+    "preposition": "après",
+    "translation": "after, next to"
+  },
+  {
+    "preposition": "avant",
+    "translation": "before (time)"
+  },
+  {
+    "preposition": "avec",
+    "translation": "with"
+  },
+  {
+    "preposition": "chez",
+    "translation": "at _____'s house"
+  },
+  {
+    "preposition": "contre",
+    "translation": "against"
+  },
+  {
+    "preposition": "dans",
+    "translation": "in, inside, into"
+  },
+  {
+    "preposition": "de",
+    "translation": "of, from, with, etc."
+  },
+  {
+    "preposition": "depuis",
+    "translation": "since, from"
+  },
+  {
+    "preposition": "derrière",
+    "translation": "behind"
+  },
+  {
+    "preposition": "devant",
+    "translation": "before"
+  },
+  {
+    "preposition": "durant",
+    "translation": "during"
+  },
+  {
+    "preposition": "en",
+    "translation": "in, to"
+  },
+  {
+    "preposition": "entre",
+    "translation": "between, among"
+  },
+  {
+    "preposition": "envers",
+    "translation": "towards (moral tendency)"
+  },
+  {
+    "preposition": "hors",
+    "translation": "outside"
+  },
+  {
+    "preposition": "jusque",
+    "translation": "until, up to"
+  },
+  {
+    "preposition": "malgré",
+    "translation": "in spite of"
+  },
+  {
+    "preposition": "par",
+    "translation": "by, through"
+  },
+  {
+    "preposition": "parmi",
+    "translation": "among"
+  },
+  {
+    "preposition": "pendant",
+    "translation": "during"
+  },
+  {
+    "preposition": "pour",
+    "translation": "for, in order to (+inf.)"
+  },
+  {
+    "preposition": "près",
+    "translation": "near"
+  },
+  {
+    "preposition": "sans",
+    "translation": "without"
+  },
+  {
+    "preposition": "sauf",
+    "translation": "except"
+  },
+  {
+    "preposition": "selon",
+    "translation": "according to"
+  },
+  {
+    "preposition": "sous",
+    "translation": "under"
+  },
+  {
+    "preposition": "suivant",
+    "translation": "following"
+  },
+  {
+    "preposition": "sur",
+    "translation": "on, upon"
+  },
+  {
+    "preposition": "vers",
+    "translation": "toward (direction)"
+  }
+]

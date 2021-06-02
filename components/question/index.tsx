@@ -24,10 +24,18 @@ export default function Question({
     if (input.trim().length === 0) {
       return;
     }
-    if (input.toLowerCase() === solution.toLowerCase()) {
-      onCorrect(input, challenge);
+    if (Array.isArray(solution)) {
+      if (solution.find((s) => s.toLowerCase() === input.toLowerCase())) {
+        onCorrect(input, challenge);
+      } else {
+        onIncorrect(input, challenge);
+      }
     } else {
-      onIncorrect(input, challenge);
+      if (input.toLowerCase() === solution.toLowerCase()) {
+        onCorrect(input, challenge);
+      } else {
+        onIncorrect(input, challenge);
+      }
     }
     setInput('');
   };
