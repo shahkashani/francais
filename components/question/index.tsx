@@ -9,11 +9,13 @@ export default function Question({
   inputRef,
   onCorrect,
   onIncorrect,
+  isShaking = false,
 }: {
   verb: Verb;
   inputRef?: Ref<HTMLInputElement>;
   onCorrect: (answer?: string, verb?: Verb) => void;
   onIncorrect: (answer?: string, verb?: Verb) => void;
+  isShaking?: boolean;
 }) {
   const [answer, setAnswer] = useState<string>('');
   const { passecompose, infinitif, translation } = verb;
@@ -38,7 +40,8 @@ export default function Question({
         <form onSubmit={onSubmit} className={styles.form}>
           <input
             ref={inputRef}
-            className={styles.input}
+            className={`${styles.input} ${isShaking ? styles.shake : ''
+          }`}
             type="text"
             autoFocus={true}
             value={answer}

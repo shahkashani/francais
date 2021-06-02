@@ -19,10 +19,16 @@ function MyApp({ Component, pageProps }) {
 
         input {
           font-size: 16px;
+          font-family: 'Space Grotesk', sans-serif;
         }
 
         * {
           box-sizing: border-box;
+        }
+
+        :root {
+          --correct: #29b711;
+          --incorrect: #cf4125;
         }
       `}</style>
       <Component {...pageProps} />
