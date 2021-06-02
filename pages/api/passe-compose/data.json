@@ -10,12 +10,24 @@
     "passecompose": "commencé",
     "translation": "to start"
   },
-  { "infinitif": "choisir", "passecompose": "choisi", "translation": "to choose" },
+  {
+    "infinitif": "choisir",
+    "passecompose": "choisi",
+    "translation": "to choose"
+  },
   { "infinitif": "finir", "passecompose": "fini", "translation": "to finish" },
-  { "infinitif": "attendre", "passecompose": "attendu", "translation": "to wait" },
+  {
+    "infinitif": "attendre",
+    "passecompose": "attendu",
+    "translation": "to wait"
+  },
   { "infinitif": "perdre", "passecompose": "perdu", "translation": "to lose" },
   { "infinitif": "vendre", "passecompose": "vendu", "translation": "to sell" },
-  { "infinitif": "discuter", "passecompose": "discuté", "translation": "to chat" },
+  {
+    "infinitif": "discuter",
+    "passecompose": "discuté",
+    "translation": "to chat"
+  },
   {
     "infinitif": "apercevoir",
     "passecompose": "aperçu",
@@ -23,11 +35,19 @@
   },
   { "infinitif": "avoir", "passecompose": "eu", "translation": "to have" },
   { "infinitif": "boire", "passecompose": "bu", "translation": "to drink" },
-  { "infinitif": "connaître", "passecompose": "connu", "translation": "to know" },
+  {
+    "infinitif": "connaître",
+    "passecompose": "connu",
+    "translation": "to know"
+  },
   { "infinitif": "croire", "passecompose": "cru", "translation": "to believe" },
   { "infinitif": "devoir", "passecompose": "dû", "translation": "to have" },
   { "infinitif": "lire", "passecompose": "lu", "translation": "to read" },
-  { "infinitif": "obtenir", "passecompose": "obtenu", "translation": "to obtain" },
+  {
+    "infinitif": "obtenir",
+    "passecompose": "obtenu",
+    "translation": "to obtain"
+  },
   {
     "infinitif": "paraître",
     "passecompose": "paru",
@@ -35,9 +55,21 @@
   },
   { "infinitif": "plaire", "passecompose": "plu", "translation": "to please" },
   { "infinitif": "pleuvoir", "passecompose": "plu", "translation": "to rain" },
-  { "infinitif": "pouvoir", "passecompose": "pu", "translation": "to be able to" },
-  { "infinitif": "recevoir", "passecompose": "reçu", "translation": "to receive" },
-  { "infinitif": "revoir", "passecompose": "revu", "translation": "to see again" },
+  {
+    "infinitif": "pouvoir",
+    "passecompose": "pu",
+    "translation": "to be able to"
+  },
+  {
+    "infinitif": "recevoir",
+    "passecompose": "reçu",
+    "translation": "to receive"
+  },
+  {
+    "infinitif": "revoir",
+    "passecompose": "revu",
+    "translation": "to see again"
+  },
   { "infinitif": "savoir", "passecompose": "su", "translation": "to know" },
   { "infinitif": "tenir", "passecompose": "tenu", "translation": "to hold" },
   { "infinitif": "vivre", "passecompose": "vécu", "translation": "to live" },
@@ -47,7 +79,11 @@
     "passecompose": "voulu",
     "translation": "to wish, want to"
   },
-  { "infinitif": "apprendre", "passecompose": "appris", "translation": "to learn" },
+  {
+    "infinitif": "apprendre",
+    "passecompose": "appris",
+    "translation": "to learn"
+  },
   {
     "infinitif": "comprendre",
     "passecompose": "compris",
@@ -70,8 +106,16 @@
     "passecompose": "remis",
     "translation": "to postpone, to submit"
   },
-  { "infinitif": "conduire", "passecompose": "conduit", "translation": "to drive" },
-  { "infinitif": "couvrir", "passecompose": "couvert", "translation": "to cover" },
+  {
+    "infinitif": "conduire",
+    "passecompose": "conduit",
+    "translation": "to drive"
+  },
+  {
+    "infinitif": "couvrir",
+    "passecompose": "couvert",
+    "translation": "to cover"
+  },
   {
     "infinitif": "découvrir",
     "passecompose": "découvert",
@@ -79,20 +123,32 @@
   },
   { "infinitif": "dire", "passecompose": "dit", "translation": "to say" },
   { "infinitif": "écrire", "passecompose": "écrit", "translation": "to write" },
-  { "infinitif": "faire", "passecompose": "fait", "translation": "to do, to make" },
+  {
+    "infinitif": "faire",
+    "passecompose": "fait",
+    "translation": "to do, to make"
+  },
   {
     "infinitif": "feindre de",
     "passecompose": "feint",
     "translation": "to pretend to"
   },
-  { "infinitif": "offrir", "passecompose": "offert", "translation": "to offer" },
+  {
+    "infinitif": "offrir",
+    "passecompose": "offert",
+    "translation": "to offer"
+  },
   { "infinitif": "ouvrir", "passecompose": "ouvert", "translation": "to open" },
   {
     "infinitif": "produire",
     "passecompose": "produit",
     "translation": "to produce"
   },
-  { "infinitif": "réduire", "passecompose": "réduit", "translation": "to reduce" },
+  {
+    "infinitif": "réduire",
+    "passecompose": "réduit",
+    "translation": "to reduce"
+  },
   {
     "infinitif": "souffrir",
     "passecompose": "souffert",
@@ -117,7 +173,70 @@
     "translation": "to feel, to smell"
   },
   { "infinitif": "servir", "passecompose": "servi", "translation": "to serve" },
-  { "infinitif": "sourire", "passecompose": "souri", "translation": "to smile" },
-  { "infinitif": "suivre", "passecompose": "suivi", "translation": "to follow" },
-  { "infinitif": "être", "passecompose": "été", "translation": "to be" }
+  {
+    "infinitif": "sourire",
+    "passecompose": "souri",
+    "translation": "to smile"
+  },
+  {
+    "infinitif": "suivre",
+    "passecompose": "suivi",
+    "translation": "to follow"
+  },
+  { "infinitif": "être", "passecompose": "été", "translation": "to be" },
+  { "infinitif": "aller", "passecompose": "allé", "translation": "to go" },
+  { "infinitif": "partir", "passecompose": "parti", "translation": "to leave" },
+  {
+    "infinitif": "rester",
+    "passecompose": "resté",
+    "translation": "to stay, remain"
+  },
+  {
+    "infinitif": "sortir",
+    "passecompose": "sorti",
+    "translation": "to go out"
+  },
+  { "infinitif": "venir", "passecompose": "venu", "translation": "to come" },
+  {
+    "infinitif": "descendre",
+    "passecompose": "descendu",
+    "translation": "to go, get down"
+  },
+  {
+    "infinitif": "monter",
+    "passecompose": "monté",
+    "translation": "to go up, climb up"
+  },
+  {
+    "infinitif": "tomber",
+    "passecompose": "tombé",
+    "translation": "to fall (down)"
+  },
+  {
+    "infinitif": "arriver",
+    "passecompose": "arrivé",
+    "translation": "to arrive"
+  },
+  {
+    "infinitif": "entrer",
+    "passecompose": "entré",
+    "translation": "to enter, go in"
+  },
+  {
+    "infinitif": "rentrer",
+    "passecompose": "rentré",
+    "translation": "to return, go home"
+  },
+  {
+    "infinitif": "revenir",
+    "passecompose": "revenu",
+    "translation": "to come back"
+  },
+  {
+    "infinitif": "devenir",
+    "passecompose": "devenu",
+    "translation": "to become"
+  },
+  { "infinitif": "mourir", "passecompose": "mort", "translation": "to die" },
+  { "infinitif": "naître", "passecompose": "né", "translation": "to be born" }
 ]
