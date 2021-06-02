@@ -1,54 +1,53 @@
 import CaretIcon from 'icons/caret';
+import Challenge from 'types/challenge';
 import { Ref } from 'react';
-import Verb from 'types/verb';
 import styles from './styles.module.scss';
 import { useState } from 'react';
 
 export default function Question({
-  verb,
+  challenge,
   inputRef,
   onCorrect,
   onIncorrect,
   isShaking = false,
 }: {
-  verb: Verb;
+  challenge: Challenge;
   inputRef?: Ref<HTMLInputElement>;
-  onCorrect: (answer?: string, verb?: Verb) => void;
-  onIncorrect: (answer?: string, verb?: Verb) => void;
+  onCorrect: (answer?: string, challenge?: Challenge) => void;
+  onIncorrect: (answer?: string, challenge?: Challenge) => void;
   isShaking?: boolean;
 }) {
-  const [answer, setAnswer] = useState<string>('');
-  const { passecompose, infinitif, translation } = verb;
+  const [input, setInput] = useState<string>('');
+  const { question, solution, hint } = challenge;
   const onSubmit = (e) => {
     e.preventDefault();
-    if (answer.trim().length === 0) {
+    if (input.trim().length === 0) {
       return;
     }
-    if (answer.toLowerCase() === passecompose.toLocaleLowerCase()) {
-      onCorrect(answer, verb);
+    if (input.toLowerCase() === solution.toLowerCase()) {
+      onCorrect(input, challenge);
     } else {
-      onIncorrect(answer, verb);
+      onIncorrect(input, challenge);
     }
-    setAnswer('');
+    setInput('');
   };
   return (
     <div className={styles.container}>
       <h1>
-        {infinitif} <span className={styles.translation}>{translation}</span>
+        {question} {hint && <span className={styles.hint}>{hint}</span>}
       </h1>
       <div>
         <form onSubmit={onSubmit} className={styles.form}>
           <input
             ref={inputRef}
-            className={`${styles.input} ${isShaking ? styles.shake : ''
-          }`}
+            className={`${styles.input} ${isShaking ? styles.shake : ''}`}
             type="text"
             autoFocus={true}
-            value={answer}
+            value={input}
             autoCorrect="off"
             autoComplete="off"
             autoCapitalize="off"
-            onInput={(e) => setAnswer(e.currentTarget.value)}
+            onInput={(e) => setInput(e.currentTarget.value)}
           />
           <button aria-label="Submit" className={styles.button}>
             <CaretIcon />

@@ -1,20 +1,20 @@
-import Verb from 'types/verb';
+import Challenge from 'types/challenge';
 import styles from './styles.module.scss';
 
 export default function Incorrect({
   onComplete,
-  verb,
+  challenge,
   answer,
 }: {
   answer: string;
-  verb: Verb;
+  challenge: Challenge;
   onComplete?: () => void;
 }) {
+  const { question, solution } = challenge;
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>
-        {verb.infinitif}:{' '}
-        <span className={styles.correct}>{verb.passecompose}</span>
+        {question}: <span className={styles.correct}>{solution}</span>
       </h1>
       <h2 className={styles.h2}>
         <span className={styles.incorrect}>{answer}</span> est incorrect

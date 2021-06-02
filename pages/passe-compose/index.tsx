@@ -1,19 +1,19 @@
 import { createRef, useEffect, useState } from 'react';
 import { sample, shuffle } from 'lodash';
 
+import Challenge from 'types/challenge';
 import Confetti from 'react-canvas-confetti';
 import Head from 'next/head';
 import Incorrect from 'components/incorrect';
 import Question from 'components/question';
-import Verb from 'types/verb';
 import styles from './styles.module.scss';
 
 const MAX_INCORRECT = 3;
 
 export default function PasseCompose() {
   const inputRef = createRef<HTMLInputElement>();
-  const [verbs, setVerbs] = useState<Verb[]>([]);
-  const [currentVerb, setCurrentVerb] = useState<Verb>(null);
+  const [challenges, setChallenges] = useState<Challenge[]>([]);
+  const [currentChallenge, setCurrentChallenge] = useState<Challenge>(null);
   const [isShowingAnswer, setIsShowingAnswer] = useState<boolean>(false);
   const [lastAnswer, setLastAnswer] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -26,24 +26,24 @@ export default function PasseCompose() {
   useEffect(() => {
     const getData = async () => {
       const response = await fetch('/api/passe-compose');
-      const verbs = await response.json();
-      setVerbs(shuffle(verbs));
-      setCurrentVerb(sample(verbs));
+      const challenges = await response.json();
+      setChallenges(shuffle(challenges));
+      setCurrentChallenge(sample(challenges));
     };
     getData();
   }, []);
 
   useEffect(() => {
     if (currentIndex === 0) {
-      setVerbs(shuffle(verbs));
+      setChallenges(shuffle(challenges));
     } else {
-      setCurrentVerb(verbs[currentIndex]);
+      setCurrentChallenge(challenges[currentIndex]);
     }
   }, [currentIndex]);
 
   useEffect(() => {
-    setCurrentVerb(verbs[currentIndex]);
-  }, [verbs]);
+    setCurrentChallenge(challenges[currentIndex]);
+  }, [challenges]);
 
   useEffect(() => {
     if (incorrectCount === MAX_INCORRECT) {
@@ -51,8 +51,8 @@ export default function PasseCompose() {
     }
   }, [incorrectCount]);
 
-  const getNextVerb = () => {
-    setCurrentIndex((currentIndex + 1) % verbs.length);
+  const getNextChallenge = () => {
+    setCurrentIndex((currentIndex + 1) % challenges.length);
   };
 
   const onCorrect = () => {
@@ -62,7 +62,7 @@ export default function PasseCompose() {
     }, 0);
     setTotalCorrect((num) => num + 1);
     setIncorrectCount(0);
-    getNextVerb();
+    getNextChallenge();
   };
 
   const onIncorrect = (answer: string) => {
@@ -81,7 +81,7 @@ export default function PasseCompose() {
     setIncorrectCount(0);
   };
 
-  if (!currentVerb) {
+  if (!currentChallenge) {
     return '';
   }
 
@@ -97,7 +97,7 @@ export default function PasseCompose() {
         </div>
         <Question
           inputRef={inputRef}
-          verb={currentVerb}
+          challenge={currentChallenge}
           onCorrect={onCorrect}
           onIncorrect={onIncorrect}
           isShaking={isShaking}
@@ -110,7 +110,7 @@ export default function PasseCompose() {
         {isShowingAnswer && (
           <Incorrect
             answer={lastAnswer}
-            verb={currentVerb}
+            challenge={currentChallenge}
             onComplete={onAnswerComplete}
           />
         )}
