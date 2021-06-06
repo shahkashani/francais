@@ -41,10 +41,10 @@
   },
   {
     "preposition": "devant",
-    "translation": "before"
+    "translation": "before (physical)"
   },
   {
-    "preposition": "durant",
+    "preposition": ["durant", "pendant"],
     "translation": "during"
   },
   {
@@ -78,10 +78,6 @@
   {
     "preposition": "parmi",
     "translation": "among"
-  },
-  {
-    "preposition": "pendant",
-    "translation": "during"
   },
   {
     "preposition": "pour",

@@ -6,14 +6,18 @@ export default function Home() {
           <h3>Passé composé</h3>
         </a>
         <a href="/conjugaison" className="card">
-          <h3>Conjugaison</h3>
-          <p>Être, aller &amp; avoir</p>
+          <h3>
+            Conjugaison <span>être, aller &amp; avoir</span>
+          </h3>
         </a>
         <a href="/prepositions" className="card">
           <h3>Prepositions</h3>
         </a>
         <a href="/preposition-locutions" className="card">
           <h3>Preposition Locutions</h3>
+        </a>
+        <a href="/numbers" className="card">
+          <h3>Numbers</h3>
         </a>
       </div>
 
@@ -68,10 +72,7 @@ export default function Home() {
           font-size: 1.5rem;
         }
 
-        .card p {
-          margin: 1rem 0 0 0;
-          font-size: 1rem;
-          line-height: 1.5;
+        .card h3 span {
           opacity: 0.5;
         }
       `}</style>
