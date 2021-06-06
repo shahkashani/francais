@@ -57,3 +57,19 @@
   perspective: 1000px;
   border-color: var(--incorrect);
 }
+
+.answerHint {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 5px;
+
+  &:empty {
+    &:after {
+      content: 'Hint...';
+      visibility: hidden;
+    }
+  }
+}

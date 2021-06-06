@@ -9,10 +9,12 @@ import styles from './styles.module.scss';
 
 export default function Questions({
   data,
+  showHintAfter,
   maxIncorrect = 3,
 }: {
   data: Challenge[];
   maxIncorrect?: number;
+  showHintAfter?: number;
 }) {
   const inputRef = createRef<HTMLInputElement>();
   const [challenges, setChallenges] = useState<Challenge[]>([]);
@@ -25,6 +27,7 @@ export default function Questions({
   const [isShaking, setIsShaking] = useState<boolean>(false);
   const [totalCorrect, setTotalCorrect] = useState<number>(0);
   const [totalIncorrect, setTotalIncorrect] = useState<number>(0);
+  const [isShowHint, setIsShowHint] = useState<boolean>(false);
 
   useEffect(() => {
     setChallenges(shuffle(data));
@@ -46,6 +49,7 @@ export default function Questions({
     if (incorrectCount >= maxIncorrect) {
       setIsShowingAnswer(true);
     }
+    setIsShowHint(showHintAfter >= 0 && incorrectCount >= showHintAfter);
   }, [incorrectCount]);
 
   const getNextChallenge = () => {
@@ -94,6 +98,7 @@ export default function Questions({
         onCorrect={onCorrect}
         onIncorrect={onIncorrect}
         isShaking={isShaking}
+        isShowHint={isShowHint}
       />
       <Confetti
         className={styles.confetti}

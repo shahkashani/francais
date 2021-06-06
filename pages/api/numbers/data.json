@@ -17,7 +17,7 @@
   },
   {
     "number": "4",
-    "spelling": "quartre"
+    "spelling": "quatre"
   },
   {
     "number": "5",
@@ -129,7 +129,7 @@
   },
   {
     "number": "32",
-    "spelling": "trent-deux"
+    "spelling": "trente-deux"
   },
   {
     "number": "33",
@@ -242,5 +242,97 @@
   {
     "number": "99",
     "spelling": "quatre-vingt-dix-neuf"
+  },
+  {
+    "number": "100",
+    "spelling": "cent"
+  },
+  {
+    "number": "101",
+    "spelling": "cent un"
+  },
+  {
+    "number": "102",
+    "spelling": "cent deux"
+  },
+  {
+    "number": "200",
+    "spelling": "deux cents"
+  },
+  {
+    "number": "201",
+    "spelling": "deux cents un"
+  },
+  {
+    "number": "222",
+    "spelling": "deux cents vingt-deux"
+  },
+  {
+    "number": "300",
+    "spelling": "trois cents"
+  },
+  {
+    "number": "400",
+    "spelling": "quatre cents"
+  },
+  {
+    "number": "500",
+    "spelling": "cinq cents"
+  },
+  {
+    "number": "600",
+    "spelling": "six cents"
+  },
+  {
+    "number": "700",
+    "spelling": "sept cents"
+  },
+  {
+    "number": "800",
+    "spelling": "huit cents"
+  },
+  {
+    "number": "900",
+    "spelling": "neuf cents"
+  },
+  {
+    "number": "970",
+    "spelling": "neuf cent soixante-dix"
+  },
+  {
+    "number": "980",
+    "spelling": "neuf cent quatre-vingts"
+  },
+  {
+    "number": "999",
+    "spelling": "neuf cent quatre-vingt-dix-neuf"
+  },
+  {
+    "number": "1000",
+    "spelling": "mille"
+  },
+  {
+    "number": "1001",
+    "spelling": "mille un"
+  },
+  {
+    "number": "2000",
+    "spelling": "deux mille"
+  },
+  {
+    "number": "3750",
+    "spelling": "trois mille sept cent cinquante"
+  },
+  {
+    "number": "999 999",
+    "spelling": "neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf"
+  },
+  {
+    "number": "1 000 000",
+    "spelling": "un million"
+  },
+  {
+    "number": "1 000 000 000",
+    "spelling": "un milliard"
   }
 ]

@@ -9,10 +9,12 @@ export default function Question({
   inputRef,
   onCorrect,
   onIncorrect,
+  isShowHint = false,
   isShaking = false,
 }: {
   challenge: Challenge;
   inputRef?: Ref<HTMLInputElement>;
+  isShowHint?: boolean;
   onCorrect: (answer?: string, challenge?: Challenge) => void;
   onIncorrect: (answer?: string, challenge?: Challenge) => void;
   isShaking?: boolean;
@@ -43,6 +45,10 @@ export default function Question({
     <div className={styles.container}>
       <h1>
         {question} {hint && <span className={styles.hint}>{hint}</span>}
+        <div className={styles.answerHint}>
+          {isShowHint &&
+            `Hint: ${solution.slice(0, Math.ceil(solution.length / 4))}...`}
+        </div>
       </h1>
       <div>
         <form onSubmit={onSubmit} className={styles.form}>

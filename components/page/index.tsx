@@ -7,11 +7,13 @@ import Questions from 'components/questions';
 export default function Page({
   url,
   title,
+  showHintAfter,
   maxIncorrect = 3,
 }: {
   url: string;
   title: string;
   maxIncorrect?: number;
+  showHintAfter?: number;
 }) {
   const [questions, setQuestions] = useState<Challenge[]>([]);
 
@@ -28,7 +30,11 @@ export default function Page({
       <Head>
         <title>{title}</title>
       </Head>
-      <Questions data={questions} maxIncorrect={maxIncorrect} />
+      <Questions
+        data={questions}
+        maxIncorrect={maxIncorrect}
+        showHintAfter={showHintAfter}
+      />
     </>
   );
 }
