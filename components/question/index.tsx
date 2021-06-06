@@ -47,7 +47,7 @@ export default function Question({
         {question} {hint && <span className={styles.hint}>{hint}</span>}
         <div className={styles.answerHint}>
           {isShowHint &&
-            `Hint: ${solution.slice(0, Math.ceil(solution.length / 4))}...`}
+            `Hint: ${solution.slice(0, Math.ceil(solution.length / 3))}...`}
         </div>
       </h1>
       <div>
